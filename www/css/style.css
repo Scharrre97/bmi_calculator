@@ -1,1 +1,21 @@
-/* Empty. Add your own CSS if you like */
+ion-content {
+    background: -webkit-linear-gradient(#170281, purple, #54e9eb);
+    background: -o-linear-gradient(#170281, purple, #54e9eb);
+    background: -moz-linear-gradient(#170281, purple, #54e9eb);
+    background: linear-gradient(#170281, purple, #54e9eb);
+}
+
+p {
+  color: white;
+  font-style: italic;
+}
+
+h3 {
+  color: white;
+  font-style: italic;
+  font-size: 2em;
+}
+
+button {
+  color: black;
+}
