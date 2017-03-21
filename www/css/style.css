@@ -1,8 +1,8 @@
 ion-content {
-    background: -webkit-linear-gradient(#170281, purple, #54e9eb);
-    background: -o-linear-gradient(#170281, purple, #54e9eb);
-    background: -moz-linear-gradient(#170281, purple, #54e9eb);
-    background: linear-gradient(#170281, purple, #54e9eb);
+    background: -webkit-linear-gradient(red, yellow, green);
+    background: -o-linear-gradient(red, yellow, green);
+    background: -moz-linear-gradient(red, yellow, green);
+    background: linear-gradient(red, yellow, green);
 }
 
 p {
