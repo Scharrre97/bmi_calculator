@@ -23,16 +23,26 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     templateUrl: 'templates/tabs.html'
   })
 
-    .state('tab.about', {
-      url: '/about',
-      views: {
-        'tab-about': {
-          templateUrl: 'templates/about/about.html',
-          controller: 'AboutController'
-        }
-      }
-    })
+    .state('tab.bmi', {
+  url: '/bmi',
+  views: {
+    'tab-bmi': {
+      templateUrl: 'templates/calculator/calculator.html',
+      controller: 'BmiController'
+    }
+  }
+  })
 
+  .state('tab.about', {
+  url: '/about',
+  views: {
+    'tab-about': {
+      templateUrl: 'templates/about/about.html',
+      controller: 'AboutController'
+    }
+  }
+  });
+  
   $urlRouterProvider.otherwise('/tab/about');
 
 });
